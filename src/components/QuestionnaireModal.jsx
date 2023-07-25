@@ -223,7 +223,7 @@ const QuestionnaireModal = (props) => {
                   <RadioGroup.Option
                     className={`p-4 flex flex-col items-center justify-center gap-4 rounded-md bg-app-bg-gray ui-checked:outline-[2px] ui-checked:[outline-style:solid] ui-checked:outline-app-green transition-all duration-300`}
                     value='other'
-                    onKeyDown={(e) => e.stopPropagation()}
+                    // onKeyDown={(e) => e.stopPropagation()}
                   >
                     <OtherIcon />
                     <span className='text-white text-base'>Other</span>
